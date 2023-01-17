@@ -1,0 +1,2 @@
+ef 连接sqlServer数据库："server=.;uid=sa;pwd=Yhy990912;database=ToDo"
+ef连接默认的SQLite:"DataSource=app.db"

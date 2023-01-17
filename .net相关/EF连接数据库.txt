@@ -1,0 +1,5 @@
+1、EF方式连接Sqlserver服务器数据库
+Scaffold-DbContext "Server=172.21.1.9;User Id=sa;Password=SuperTeam168*;Database=School_MES;Persist Security Info=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -f
+
+2、EF方式连接MySQL本地数据库
+Scaffold-DbContext -Force "Server=localhost;User Id=root;Password=dai980525.;Database=giotdb;" -Provider "Pomelo.EntityFrameworkCore.MySql" -OutputDir Models
